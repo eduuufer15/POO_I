@@ -178,6 +178,3 @@ Thumbs.db
 # 📚 Recursos adicionales
 - [Documentación oficial de Java](https://docs.oracle.com/en/java/)
 - [Tutorial de POO en Java (YouTube)](https://www.youtube.com/playlist?list=PLWtYZ2ejMVJlUu5lq2d3xE6Cs4t73zvPp)
-
-# 🤝 Contribuir
-Si deseas contribuir a este proyecto, haz un fork y envía un pull request. ¡Será bienvenido cualquier tipo de mejora o sugerencia!
