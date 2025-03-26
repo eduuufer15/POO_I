@@ -1,8 +1,3 @@
-/**
- * 
- */
-/**
- * 
- */
-module Poo_I {
+module Core2024 {
+    requires java.base;
 }
