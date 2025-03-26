@@ -34,133 +34,141 @@ Este proyecto es útil para comprender y practicar los conceptos fundamentales d
    cd POO_1
 
 ## 🎮 ¿Cómo usar?
- Este proyecto contiene varios paquetes con diferentes clases que puedes utilizar para gestionar Vehículos, Aparatos electrónicos y Herramientas de utilidad. A continuación se describe el propósito de cada paquete.
 
-# 📦 Paquete aparatos
-## Clases en aparatos
-### Reloj.java
-La clase Reloj permite crear un reloj con funcionalidades como:
+Este proyecto contiene varios paquetes con diferentes clases que puedes utilizar para gestionar **Vehículos**, **Aparatos electrónicos** y **Herramientas de utilidad**. A continuación se describe el propósito de cada paquete.
 
-Mostrar la hora en formato de 24 horas.
+---
 
-Incrementar minutos y horas.
+## 📦 Paquete `aparatos`
 
-Cambiar el formato entre 24 horas y 12 horas.
+### Clases en `aparatos`
 
-Reiniciar el reloj a las 00:00.
+#### `Reloj.java`
+La clase **Reloj** permite crear un reloj con funcionalidades como:
 
-### Smartwatch.java
-La clase Smartwatch extiende de Reloj y agrega funcionalidades adicionales:
+- Mostrar la hora en formato de 24 horas.
+- Incrementar minutos y horas.
+- Cambiar el formato entre 24 horas y 12 horas.
+- Reiniciar el reloj a las 00:00.
 
-Monitorear la actividad física.
+#### `Smartwatch.java`
+La clase **Smartwatch** extiende de **Reloj** y agrega funcionalidades adicionales como:
 
-Sincronizar con otros dispositivos.
+- Monitorear la actividad física.
+- Sincronizar con otros dispositivos.
 
-### Telefono.java
-La clase Telefono representa un teléfono móvil con:
+#### `Telefono.java`
+La clase **Telefono** representa un teléfono móvil con:
 
-Llamar a un número.
+- Llamar a un número.
+- Enviar mensajes.
 
-Enviar mensajes.
+#### `TestReloj.java`
+Esta clase de prueba permite verificar las funcionalidades de la clase **Reloj**.
 
-### TestReloj.java
-Esta clase de prueba permite verificar las funcionalidades de la clase Reloj.
+---
 
-# 📦 Paquete vehiculos
-## Clases en vehiculos
-### Automovil.java
-La clase Automovil representa un automóvil con:
+## 📦 Paquete `vehiculos`
 
-Matrícula.
+### Clases en `vehiculos`
 
-Tipo de combustible.
+#### `Automovil.java`
+La clase **Automovil** representa un automóvil con:
 
-Mostrar información del automóvil.
+- Matrícula.
+- Tipo de combustible.
+- Mostrar información del automóvil.
 
-### Bicicleta.java
-La clase Bicicleta representa una bicicleta con atributos como:
+#### `Bicicleta.java`
+La clase **Bicicleta** representa una bicicleta con atributos como:
 
-Tipo de bicicleta.
+- Tipo de bicicleta.
+- Número de marchas.
 
-Número de marchas.
+#### `Vehiculo.java`
+La clase **Vehiculo** es la clase base para vehículos que contiene información básica como:
 
-### Vehiculo.java
-La clase Vehiculo es la clase base para vehículos que contiene información básica como:
+- Matrícula.
+- Tipo.
+- Año de fabricación.
 
-Matrícula.
+#### `TestVehiculo.java`
+Esta clase de prueba permite verificar las funcionalidades de la clase **Vehiculo**.
 
-Tipo.
+---
 
-Año de fabricación.
+## 📦 Paquete `utilidades`
 
-### TestVehiculo.java
-Esta clase de prueba permite verificar las funcionalidades de la clase Vehiculo.
+### Clases en `utilidades`
 
-# 📦 Paquete utilidades
-## Clases en utilidades
-### Calculadora.java
-La clase Calculadora tiene métodos para realizar operaciones matemáticas básicas como:
+#### `Calculadora.java`
+La clase **Calculadora** tiene métodos para realizar operaciones matemáticas básicas como:
 
-Suma.
+- Suma.
+- Resta.
+- Multiplicación.
+- División.
 
-Resta.
+#### `GeneradorContrasenias.java`
+La clase **GeneradorContrasenias** genera contraseñas aleatorias seguras de longitud configurable.
 
-Multiplicación.
+---
 
-División.
+## 📦 Paquete `main`
 
-### GeneradorContrasenias.java
-La clase GeneradorContrasenias genera contraseñas aleatorias seguras de longitud configurable.
+### Clases en `main`
 
-# 📦 Paquete main
-## Clases en main
-### EjemploUso.java
+#### `EjemploUso.java`
 Esta clase proporciona un ejemplo de uso para las clases principales del proyecto.
 
-### Main.java
+#### `Main.java`
 La clase principal que se puede ejecutar para probar el funcionamiento de las clases y paquetes.
 
-# 🌱 Funcionalidades principales
-### Funcionalidades de la clase Reloj
-Mostrar la hora en formato de 24 horas.
+---
 
-Incrementar minutos y horas.
+## 🌱 Funcionalidades principales
 
-Cambiar el formato entre 12 horas y 24 horas.
+### Funcionalidades de la clase `Reloj`
+- Mostrar la hora en formato de 24 horas.
+- Incrementar minutos y horas.
+- Cambiar el formato entre 12 horas y 24 horas.
 
-### Funcionalidades de la clase Smartwatch
-Monitorear la actividad física.
+### Funcionalidades de la clase `Smartwatch`
+- Monitorear la actividad física.
+- Sincronización con otros dispositivos.
 
-Sincronización con otros dispositivos.
+### Funcionalidades de la clase `Vehiculo`
+- Mostrar información de un vehículo.
+- Actualizar kilometraje.
+- Calcular antigüedad del vehículo.
 
-### Funcionalidades de la clase Vehiculo
-Mostrar información de un vehículo.
+---
 
-Actualizar kilometraje.
+## 🌍 Ramas del proyecto
 
-Calcular antigüedad del vehículo.
+### 🧪 Rama `main`
+- **Propósito**: Contiene el código funcional y listo para producción.
+- **Cambios realizados**: Implementación inicial de las clases `Reloj`, `Smartwatch`, `Automovil`, y `Bicicleta`.
 
-# 🌍 Ramas del proyecto
-## 🧪 Rama main
-### Propósito: Contiene el código funcional y listo para producción.
+### 🔧 Rama `dev`
+- **Propósito**: En esta rama estamos realizando pruebas y desarrollando nuevas funcionalidades.
+- **Cambios realizados**:
+    - Añadidos métodos de validación y mejoras en las clases de vehículos y aparatos.
 
-Cambios realizados: Implementación inicial de las clases Reloj, Smartwatch, Automovil, y Bicicleta.
+---
 
-## 🔧 Rama dev
-### Propósito: En esta rama estamos realizando pruebas y desarrollando nuevas funcionalidades.
+## 🚀 Uso de Ramas
 
-Cambios realizados:
+### Rama `main`
+- **Propósito**: Contiene el código funcional y listo para producción.
 
-Añadidos métodos de validación y mejoras en las clases de vehículos y aparatos.
+### Rama `dev`
+- **Propósito**: Para realizar pruebas y agregar nuevas características.
 
-# 🚀 Uso de Ramas
-## Rama main
-### Propósito: Contiene el código funcional y listo para producción.
+---
 
-## Rama dev
-### Propósito: Para realizar pruebas y agregar nuevas características
+## 🔒 `.gitignore`
 
-# 🔒 .gitignore
 ```bash    
 ### Archivos de configuración del IDE
 .settings/
@@ -175,6 +183,6 @@ target/
 .DS_Store
 Thumbs.db 
 ```
-# 📚 Recursos adicionales
+## 📚 Recursos adicionales
 - [Documentación oficial de Java](https://docs.oracle.com/en/java/)
 - [Tutorial de POO en Java (YouTube)](https://www.youtube.com/playlist?list=PLWtYZ2ejMVJlUu5lq2d3xE6Cs4t73zvPp)
