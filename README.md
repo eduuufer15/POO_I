@@ -167,22 +167,6 @@ La clase principal que se puede ejecutar para probar el funcionamiento de las cl
 
 ---
 
-## 🔒 `.gitignore`
-
-```bash    
-### Archivos de configuración del IDE
-.settings/
-.idea/
-*.iml
-
-### Archivos generados
-bin/
-target/
-
-### Archivos de sistema
-.DS_Store
-Thumbs.db 
-```
 ## 📚 Recursos adicionales
 - [Documentación oficial de Java](https://docs.oracle.com/en/java/)
 - [Tutorial de POO en Java (YouTube)](https://www.youtube.com/playlist?list=PLWtYZ2ejMVJlUu5lq2d3xE6Cs4t73zvPp)
